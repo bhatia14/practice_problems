@@ -7,7 +7,7 @@ import java.util.*;
 public class GenerateParentheses {
 
     public static void main(String[] args) {
-        generateParenthesis(3);
+        generateParenthesis(4);
     }
 
     public static List<String> generateParenthesis(int n) {
