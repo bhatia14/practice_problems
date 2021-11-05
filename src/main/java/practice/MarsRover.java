@@ -1,5 +1,7 @@
 package practice;
 
+import java.util.HashMap;
+
 public class MarsRover {
     public static void main(String[] args) {
         String gridSize = "5 5";
@@ -8,6 +10,8 @@ public class MarsRover {
 
         String startingPosition = "3 3 E";
         String move = "MMRMMRMRRM";
+        HashMap h = new HashMap();
+        String[] x = (String[]) h.keySet().toArray();
 
         String[] moves =move.split("");
 
